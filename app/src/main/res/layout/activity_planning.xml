@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1E0C5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:paddingTop="40dp">
+
+        <TextView
+            android:id="@+id/tvTitrePlanning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mon Planning"
+            android:textSize="24sp"
+            android:textColor="@color/sage_green"
+            android:layout_gravity="center"
+            android:layout_marginBottom="32dp" />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="08h-10h" android:textStyle="bold" />
+        <EditText android:id="@+id/et0810" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Ex: Cours HAI8111" android:layout_marginBottom="16dp" />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="10h-12h" android:textStyle="bold" />
+        <EditText android:id="@+id/et1012" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Ex: Réunion" android:layout_marginBottom="16dp" />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="14h-16h" android:textStyle="bold" />
+        <EditText android:id="@+id/et1416" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Ex: TP" android:layout_marginBottom="16dp" />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="16h-18h" android:textStyle="bold" />
+        <EditText android:id="@+id/et1618" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Ex: Sport" android:layout_marginBottom="32dp" />
+
+        <Button
+            android:id="@+id/btnSavePlanning"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Valider et Sauvegarder" />
+
+    </LinearLayout>
+</ScrollView>
